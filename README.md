@@ -17,3 +17,5 @@ This is a little program base on Linux system to calculate binary addition resul
 > ~# ./new_year  
 > Please input a decimal year:2017  
 > 1024 + 512 + 256 + 128 + 64 + 32 + 1 = 2017    
+
+P.S: compile this program by "gcc new_year.c -lm".

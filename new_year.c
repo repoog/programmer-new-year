@@ -30,7 +30,7 @@ int main()
 	printf("Please input a decimal year:");
 	scanf("%d", &n_dec_year);
 
-	if((n_dec_year <= 0))
+	if((n_dec_year <= 0) || (n_dec_year > 65535))
 	{
 		printf("ERROR: decimal year input is not legal.\n");
 		return 0;
